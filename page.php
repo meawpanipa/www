@@ -54,6 +54,6 @@
         <?php
             mysqli_close($conn);
         ?>
-        <center><a href = "form_fn.php"><button type="button" class="btn btn-info">Add</button></a></center>
+        <center><a href = "from_fn.php"><button type="button" class="btn btn-info">Add</button></a></center>
     </body>
 </html>
