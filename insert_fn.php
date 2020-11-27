@@ -21,10 +21,9 @@
         $Product = $_POST['Product'];
         $Price = $_POST['Price'];
         $Amount = $_POST['Amount'];
-        $Total = $_POST['Total'];
 
 
-        $sql = "INSERT INTO friday (Product , Price , Amount, Total) VALUES ('$Product', '$Price', '$Amount', '$Total')";
+        $sql = "INSERT INTO friday (Product , Price , Amount) VALUES ('$Product', '$Price', '$Amount')";
 
 
         if (mysqli_query($conn, $sql)) {
