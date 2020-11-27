@@ -40,6 +40,7 @@
                 <td><?php echo $Result['Product'];?></div></td>
                 <td><?php echo $Result['Price'];?></td>
                 <td><?php echo $Result['Amount'];?></td>
+                <td><?php echo $Result['Total'];?></td>
                 <td><?php echo $Result['Action'];?><center><a href = "delete.php?delete_id=<?php echo $Result['ID']; ?>"><button type="button" class="btn btn-warning">Delete</button></a></center></td>
             </tr>
         <?php
